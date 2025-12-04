@@ -24,42 +24,4 @@ function App() {
 export default App;
 
 
-
-
-// import React, { useState } from 'react'
-
-// const App = () => {
-//   const [open, setOpen] = useState(false)
-//   return (
-//     <>
-//       <nav>
-//         <div className='flex justify-around'>
-//           <p className='text-xl font-bold'>Hello</p>
-
-//           <div className='hidden md:flex gap-10'>
-//             <p className='text-sm font-semibold hover:text-red-500'>Hyy</p>
-//             <p className='text-sm font-semibold hover:text-red-500'>Hyy</p>
-//             <p className='text-sm font-semibold hover:text-red-500'>Hyy</p>
-//             <p className='text-sm font-semibold hover:text-red-500'>Hyy</p>
-//             <p className='text-sm font-semibold hover:text-red-500'>Hyy</p>
-//           </div>
-
-//           <div onClick={() => setOpen(!open)} className='cursor-pointer md:hidden'>
-//             ☰
-//           </div>
-
-//           {open &&<div className='flex flex-col md:hidden gap-10 items-center mt-5'>
-//             <p className='text-sm font-semibold hover:text-red-500'>Hyy</p>
-//             <p className='text-sm font-semibold hover:text-red-500'>Hyy</p>
-//             <p className='text-sm font-semibold hover:text-red-500'>Hyy</p>
-//             <p className='text-sm font-semibold hover:text-red-500'>Hyy</p>
-//             <p className='text-sm font-semibold hover:text-red-500'>Hyy</p>
-//           </div>}
-//         </div>
-//       </nav>
-//     </>
-//   )
-// }
-
-// export default App
-
+ 

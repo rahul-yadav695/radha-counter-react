@@ -83,7 +83,6 @@ const Radha_krishna = () => {
           </div>
 
           <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-
             <div className="border rounded-xl p-6 bg-[#fdf4ec] shadow-sm hover:shadow-md transition text-center">
               <h2 className="font-semibold text-xl mb-2">Radha Radha</h2>
               <h2 className="text-xl mb-2">राधा राधा</h2>
@@ -101,7 +100,23 @@ const Radha_krishna = () => {
               <h2 className="text-xl mb-2">ॐ राधा कृष्णाय नमः</h2>
               <p className="text-gray-600 text-sm italic">Om Radha Krishnaya Namah</p>
             </div>
+          </div>
 
+          <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="border rounded-xl p-6 bg-[#fdf4ec] shadow-sm hover:shadow-md transition text-center">
+              <h2 className='text-xl font-bold mb-2'>Hare Krishna Maha Mantra</h2>
+              <h2 className='text-sm mb-2'>हरे कृष्ण हरे कृष्ण कृष्ण कृष्ण हरे हरे
+                <br /> हरे राम हरे राम राम राम हरे हरे</h2>
+              <p className='text-center mb-2 italic'>Hare Krishna Hare Krishna Krishna Krishna Hare Hare</p>
+              <p className='text-center mb-2 italic'>Hare Rama Hare Rama Rama Rama Hare Hare</p>
+            </div>
+            <div className="border rounded-xl p-6 bg-[#fdf4ec] shadow-sm hover:shadow-md transition text-center">
+              <h2 className='text-xl font-bold mb-2'>Hare Krishna Maha Mantra</h2>
+              <h2 className='text-sm mb-2'>हरे कृष्ण हरे कृष्ण कृष्ण कृष्ण हरे हरे
+                <br /> हरे राम हरे राम राम राम हरे हरे</h2>
+              <p className='text-center mb-2 italic'>Hare Krishna Hare Krishna Krishna Krishna Hare Hare</p>
+              <p className='text-center mb-2 italic'>Hare Rama Hare Rama Rama Rama Hare Hare</p>
+            </div>
           </div>
 
         </div>

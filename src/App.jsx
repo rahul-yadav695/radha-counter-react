@@ -8,20 +8,17 @@ import Blog from "./components/Blog";
 
 function App() {
   return (
-    <BrowserRouter>
+    <Routes>
       <RadhaNaam />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/premanand" element={<Premanand />} />
-        <Route path="/radha-krishna" element={<RadhaKrishna />} />
-        <Route path="/counter" element={<Counter />} />
-        <Route path="/blog" element={<Blog />} />
-      </Routes>
-    </BrowserRouter>
+      <Route path="/" element={<Home />} />
+      <Route path="/premanand" element={<Premanand />} />
+      <Route path="/radha-krishna" element={<RadhaKrishna />} />
+      <Route path="/counter" element={<Counter />} />
+      <Route path="/blog" element={<Blog />} />
+    </Routes>
   );
 }
 
 export default App;
 
 
- 

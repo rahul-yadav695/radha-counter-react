@@ -7,7 +7,7 @@ const RadhaNaam = () => {
 
     return (
         <>
-            <nav className='bg-black text-white customFont'>
+            <nav className='bg-black text-white customFont fixed top-0 start-0 w-full z-20'>
                 <div className='max-w-7xl mx-auto flex items-center justify-between p-3'>
 
                     <img className='w-32' src="https://radhanaamjapcounter.com/assets/images/radha_naam_jaap_header_logo.png" alt="" />

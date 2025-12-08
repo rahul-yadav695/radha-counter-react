@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer'
 
 const Premanand = () => {
     return (
@@ -39,7 +40,7 @@ const Premanand = () => {
 
             <div className="w-full flex justify-center px-4 py-10 customFont">
 
-                <div className="bg-white rounded-2xl shadow-lg border-l-4 border-orange-400 p-6 md:p-10 max-w-6xl w-full">
+                <div className="bg-white rounded-2xl shadow-sm hover:shadow-2xl border-l-4 border-orange-400 p-6 md:p-10 max-w-6xl w-full">
 
                     <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1a2b4b] text-center">
                         🌟 About Premanand Ji Maharaj
@@ -85,6 +86,109 @@ const Premanand = () => {
 
             </div>
 
+            <div className="w-full flex justify-center px-4">
+                <div className="max-w-6xl w-full bg-white shadow-sm hover:shadow-2xl rounded-2xl p-5 md:p-10">
+
+                    <p className='text-3xl md:text-4xl font-bold text-center mb-8'>
+                        📿 Sacred Teachings of Premanand Ji Maharaj
+                    </p>
+
+                    <div className="grid md:grid-cols-2 gap-10">
+
+                        <div>
+                            <p className="text-xl font-bold mb-4 flex items-center gap-2">🌸 Core Principles</p>
+
+                            <ul className="space-y-4 text-gray-800">
+                                <li className="flex items-start gap-2"><span className="text-orange-500 text-xl">•</span><p><span className="font-bold">Radha Rani is not just the devotee of Krishna, She is Krishna's own heart</span> - Understanding this truth is the foundation of all spiritual progress</p></li>
+
+                                <li className="flex items-start gap-2"><span className="text-orange-500 text-xl">•</span><p><span className="font-bold">Krishna gives Himself only to Radha Rani, and through Radha Rani, He gives Himself to the world</span> - All divine blessings flow through Radha's love</p></li>
+
+                                <li className="flex items-start gap-2"><span className="text-orange-500 text-xl">•</span><p><span className="font-bold">To understand Radha is to understand Krishna, because Radha is Krishna's soul</span> - They are inseparable in divine love</p></li>
+
+                                <li className="flex items-start gap-2"><span className="text-orange-500 text-xl">•</span><p><span className="font-bold">The highest devotion is not to ask from Krishna, but to love Him like Radha—selflessly, eternally</span> - Pure love seeks nothing in return</p></li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <p className="text-xl font-bold mb-4 flex items-center gap-2">💝 Spiritual Practices</p>
+
+                            <ul className="space-y-4 text-gray-800">
+                                <li className="flex items-start gap-2"><span className="text-pink-500 text-xl">•</span><p><span className="font-bold">Radha Naam Japa:</span> Chanting Radha's name with pure devotion and love</p></li>
+
+                                <li className="flex items-start gap-2"><span className="text-pink-500 text-xl">•</span><p><span className="font-bold">Bhakti Yoga:</span> The path of devotion as the highest form of spiritual practice</p></li>
+
+                                <li className="flex items-start gap-2"><span className="text-pink-500 text-xl">•</span><p><span className="font-bold">Selfless Service:</span> Serving others as a form of worship to Radha Krishna</p></li>
+
+                                <li className="flex items-start gap-2"><span className="text-pink-500 text-xl">•</span><p><span className="font-bold">Meditation on Divine Love:</span> Contemplating the eternal love between Radha and Krishna</p></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div className="w-full bg-[#fff7e8] py-12 px-4 flex justify-center">
+                <div className="max-w-6xl w-full">
+
+                    <p className="text-3xl md:text-4xl font-bold text-center mb-10 font-heading">
+                        ✨ Divine Messages & Wisdom
+                    </p>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                        <div className="bg-white shadow-md rounded-2xl p-6 text-center">
+                            <p className="text-3xl mb-2">🌸</p>
+                            <p className="font-heading text-lg font-bold mb-2">Love Without Conditions</p>
+                            <p className="font-body text-gray-700">
+                                "Love Radha Krishna without expecting anything in return. This is the highest form of devotion."
+                            </p>
+                        </div>
+
+                        <div className="bg-white shadow-md rounded-2xl p-6 text-center">
+                            <p className="text-3xl mb-2">🕉️</p>
+                            <p className="font-heading text-lg font-bold mb-2">The Power of Radha's Name</p>
+                            <p className="font-body text-gray-700">
+                                "Chanting Radha's name purifies the heart and brings divine love into your life."
+                            </p>
+                        </div>
+
+                        <div className="bg-white shadow-md rounded-2xl p-6 text-center">
+                            <p className="text-3xl mb-2">💝</p>
+                            <p className="font-heading text-lg font-bold mb-2">Divine Union</p>
+                            <p className="font-body text-gray-700">
+                                "When you understand Radha’s love for Krishna, you understand the nature of divine love itself."
+                            </p>
+                        </div>
+
+                        <div className="bg-white shadow-md rounded-2xl p-6 text-center">
+                            <p className="text-3xl mb-2">🌼</p>
+                            <p className="font-heading text-lg font-bold mb-2">Spiritual Transformation</p>
+                            <p className="font-body text-gray-700">
+                                "Through devotion to Radha Krishna, transform your material love into divine love."
+                            </p>
+                        </div>
+
+                        <div className="bg-white shadow-md rounded-2xl p-6 text-center">
+                            <p className="text-3xl mb-2">🙏</p>
+                            <p className="font-heading text-lg font-bold mb-2">The Path of Bhakti</p>
+                            <p className="font-body text-gray-700">
+                                "Bhakti is not just worship; it is the complete surrender of the heart to the divine."
+                            </p>
+                        </div>
+
+                        <div className="bg-white shadow-md rounded-2xl p-6 text-center">
+                            <p className="text-3xl mb-2">🌺</p>
+                            <p className="font-heading text-lg font-bold mb-2">Eternal Connection</p>
+                            <p className="font-body text-gray-700">
+                                "Your relationship with Radha Krishna is eternal. It only needs to be awakened through devotion."
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <Footer />
 
         </>
     )

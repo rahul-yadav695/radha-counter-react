@@ -16,8 +16,9 @@
   animation: radhaFloat 0.5s ease-out forwards;
 }
 
-.customFont {
+body {
     font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', 'Inter', sans-serif;
 }
 
  

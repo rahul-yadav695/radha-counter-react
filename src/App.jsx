@@ -5,6 +5,7 @@ import Premanand from "./components/Premanand ";
 import RadhaKrishna from "./components/Radha_krishna";
 import Counter from "./components/Counter";
 import Blog from "./components/Blog";
+import BlogDetails from "./components/BlogDetails";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/radha-krishna" element={<RadhaKrishna />} />
         <Route path="/counter" element={<Counter />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:id" element={<BlogDetails />} />
       </Routes>
     </BrowserRouter>
   );

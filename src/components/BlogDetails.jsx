@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import Footer from "./Footer";
 
 const BlogDetails = () => {
   const { id } = useParams();
@@ -109,6 +110,7 @@ const BlogDetails = () => {
         </div>
       </div>
 
+    <Footer/>
     </>
   );
 };

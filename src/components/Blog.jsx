@@ -12,14 +12,14 @@ const Blog = () => {
 
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
 
-          <div className="bg-white rounded-xl shadow hover:shadow-xl overflow-hidden transition">
+          <Link to='/' className="bg-white rounded-xl shadow hover:shadow-xl overflow-hidden transition">
             <img className="w-full h-60 object-cover" src="https://radhanaamjapcounter.com/assets/images/blog1.png" alt="" />
             <div className="p-5">
               <p className="text-xl font-semibold">How Radha Naam Jap Purifies Thoughts and....</p>
               <p className="text-gray-500 text-sm mt-1">Admin • September 6, 2025</p>
               <p className="text-gray-600 mt-3">Chanting the holy name of Radha is not just a spiritual practice - it is a direct connection with divine...</p>
             </div>
-          </div>
+          </Link>
 
           <div className="bg-white rounded-xl shadow hover:shadow-xl overflow-hidden transition">
             <img className="w-full h-60 object-cover" src="https://radhanaamjapcounter.com/assets/images/blog2.jpg" alt="" />

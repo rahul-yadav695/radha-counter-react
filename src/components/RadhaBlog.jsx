@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer'
 
 const RadhaBlog = () => {
     return (
@@ -41,6 +42,8 @@ const RadhaBlog = () => {
 
                 </div>
             </div>
+
+            <Footer/>
         </>
     )
 }

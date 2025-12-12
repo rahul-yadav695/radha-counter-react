@@ -6,7 +6,7 @@ import RadhaKrishna from "./components/Radha_krishna";
 import Counter from "./components/Counter";
 import Blog from "./components/Blog";
 import BlogDetails from "./components/BlogDetails";
-
+import RadhaBlog from "./components/RadhaBlog"; 
 function App() {
   return (
     <BrowserRouter>
@@ -18,6 +18,7 @@ function App() {
         <Route path="/counter" element={<Counter />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:id" element={<BlogDetails />} />
+        <Route path="/radha-blog" element={<RadhaBlog/>} />
       </Routes>
     </BrowserRouter>
   );

@@ -42,7 +42,7 @@ const RadhaCounter = () => {
     <>
       <div className="p-10 relative min-h-screen select-none customFont" onClick={handleClick}>
 
-        {show && <p className="absolute text-blue-600 text-2xl font-bold animate-radha pointer-events-none" style={{ left: pos.x, top: pos.y }}>राधा</p>}
+        {show && <p className="absolute text-blue-600 text-2xl font-bold animate-radha pointer-events-none" style={{ left: pos.x - 20, top: pos.y - 20 }}>राधा</p>}
 
         <div className="flex justify-between items-center px-5">
           <button

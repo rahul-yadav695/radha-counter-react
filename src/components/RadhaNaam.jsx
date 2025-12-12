@@ -18,7 +18,8 @@ const RadhaNaam = () => {
                         <Link to="/radha-krishna" className='px-3 py-2 rounded hover:bg-pink-500 transition-all cursor-pointer'>Radha Krishna</Link>
                         <Link to="/counter" className='px-3 py-2 rounded hover:bg-pink-500 transition-all cursor-pointer'>Naam Jap Counter</Link>
                         <Link to="/blog" className='px-3 py-2 rounded hover:bg-pink-500 transition-all cursor-pointer'>Blog</Link>
-                        <button className='bg-pink-600 hover:bg-pink-700 px-4 py-1 rounded'>🎁 Giveaway</button>
+                        <Link to="/Giveaway" className='px-3 py-2 rounded bg-[#cd823a] transition-all cursor-pointer'>🎁 Giveaway</Link>
+                        {/* <button className='bg-pink-600 hover:bg-pink-700 px-4 py-1 rounded'>🎁 Giveaway</button> */}
                     </div>
 
                     <button onClick={() => setOpen(!open)} className='md:hidden text-2xl'>☰</button>

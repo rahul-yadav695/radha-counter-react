@@ -7,6 +7,7 @@ import Counter from "./components/Counter";
 import Blog from "./components/Blog";
 import BlogDetails from "./components/BlogDetails";
 import RadhaBlog from "./components/RadhaBlog"; 
+import Giveaway from "./components/Giveaway";
 function App() {
   return (
     <BrowserRouter>
@@ -19,6 +20,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:id" element={<BlogDetails />} />
         <Route path="/radha-blog" element={<RadhaBlog/>} />
+        <Route path="/Giveaway" element={<Giveaway/>} />
       </Routes>
     </BrowserRouter>
   );

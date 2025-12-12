@@ -1,11 +1,34 @@
 @import "tailwindcss";
 
- 
+
+@keyframes floatUpDown {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.float-animation {
+  animation: floatUpDown 1.5s ease-in-out infinite;
+}
+
+
+
+
+
 @keyframes radhaFloat {
   0% {
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
   }
+
   100% {
     opacity: 0;
     transform: translate(-50%, -120%) scale(1);
@@ -17,9 +40,6 @@
 }
 
 body {
-    font-family: 'Nunito', sans-serif;
-    font-family: 'Poppins', 'Inter', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Poppins', 'Inter', sans-serif;
 }
-
- 
- 

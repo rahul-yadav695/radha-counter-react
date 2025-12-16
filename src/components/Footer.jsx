@@ -23,10 +23,8 @@ const Footer = () => {
           </h2>
           <ul className="space-y-2 font-body text-gray-700">
             {["Home", "Teachings", "Naam Jap Counter", "Blog", "Contact"].map((item) => (
-              <li
-                key={item}
-                className="cursor-pointer hover:text-[#b45309] hover:translate-x-1 transition-all duration-200"
-              >
+              <li key={item}
+                className="cursor-pointer hover:text-[#b45309] hover:translate-x-1 transition-all duration-200">
                 {item}
               </li>
             ))}

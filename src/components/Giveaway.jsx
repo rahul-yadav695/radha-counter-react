@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 
 const winners = [
     { id: 1, name: "Rahul", email: "rahul************@gmail.com" },
@@ -12,37 +13,37 @@ const products = [
     {
         id: 1,
         title: "Hem Jewels 999 Pure Silver Radhe Krishna",
-        image: "/images/product1.jpg",
+        image: "https://radhanaamjapcounter.com/assets/images/Hem%20Jewels%20999%20Pure%20Silver%20Radhe%20Krishna.jpg",
         link: "https://amazon.in"
     },
     {
         id: 2,
         title: "Radha Krishna Crystal Ball Night Lamp",
-        image: "/images/product2.jpg",
+        image: "https://radhanaamjapcounter.com/assets/images/radha%20krish%20crystal%20ball%20night%20lamp.jpg",
         link: "https://amazon.in"
     },
     {
         id: 3,
         title: "Radha Krishna Wall Frame",
-        image: "/images/product3.jpg",
+        image: "https://radhanaamjapcounter.com/assets/images/Premanand%20Ji%20Maharaj%20Wall%20Hanging%20for%20Living%20Room.jpg",
         link: "https://amazon.in"
     },
     {
         id: 4,
         title: "Radha Krishna Idol",
-        image: "/images/product4.jpg",
+        image: "https://radhanaamjapcounter.com/assets/images/%20SAF%20Set%20of%203%20Religious%20Radhe.jpg",
         link: "https://amazon.in"
     },
     {
         id: 5,
         title: "Radha Krishna Photo Frame",
-        image: "/images/product5.jpg",
+        image: "https://radhanaamjapcounter.com/assets/images/SAF%20paintings%20Religious%20Radha%20Krishna.jpg",
         link: "https://amazon.in"
     },
     {
         id: 6,
         title: "Radha Krishna Decorative Gift",
-        image: "/images/product6.jpg",
+        image: "https://m.media-amazon.com/images/I/41-ZEGpLpFL._SX342_SY445_QL70_FMwebp_.jpg",
         link: "https://amazon.in"
     }
 ];
@@ -130,6 +131,27 @@ const GiveawayWinnerSection = () => {
                     </div>
                 </div>
             </div>
+
+
+            <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                {products.map((item) => (
+                    <div key={item.id} className="bg-white rounded-2xl shadow hover:shadow-lg transition overflow-hidden">
+
+                        <img src={item.image} alt={item.title} className="w-full h-52 object-cover" />
+
+                        <div className="p-5">
+                            <h2 className="font-semibold text-lg text-gray-800 mb-3">
+                                {item.title}
+                            </h2>
+
+                            <a href={item.link} target="_blank" rel="noopener noreferrer" className="text-orange-500 font-medium flex items-center gap-2 hover:underline">
+                                View Product on Amazon ↗
+                            </a>
+                        </div>
+                    </div>
+                ))}
+            </div>
+            <Footer/>
         </>
     );
 };
